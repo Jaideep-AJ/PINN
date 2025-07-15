@@ -22,9 +22,9 @@ To train a Neural Network to solve TISE for particle in a box, given the boundar
 
 ### Files
 
-* `solve\_PDE\_NN.ipynb` demonstrates neural network as a PDE solver
-* `Pinns\_Cp.ipynb` trains a neural network to solve TISE for particle in a box, given the boundary conditions and energy eigen value
-* `Pinn\_multiple\_n.ipynb` train neural network for a list of eigen values
+* `solve_PDE_NN.ipynb` demonstrates neural network as a PDE solver
+* `Pinns_Cp.ipynb` trains a neural network to solve TISE for particle in a box, given the boundary conditions and energy eigen value
+* `Pinn_multiple_n.ipynb` train neural network for a list of eigen values
 
 
 
@@ -36,7 +36,7 @@ A direct inference call to a pre-trained PINEE on the x-space and the eigen numb
 
 ### Follow-up
 
-If energy eigen values were not known, the NN should take a guess value as an additional input. Loss functions must be defined appropriately to learn the eigen value too. Details in `PINN\_Presentation.pdf`
+If energy eigen values were not known, the NN should take a guess value as an additional input. Loss functions must be defined appropriately to learn the eigen value too. Details in `PINN_Presentation.pdf`
 
 
 
